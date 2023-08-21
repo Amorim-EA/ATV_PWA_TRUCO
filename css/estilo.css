@@ -51,6 +51,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 
 .placar {
@@ -61,13 +62,14 @@ header {
 .botoes {
   display: flex;
   width: 100%;
-  justify-content: space-between;
   gap: 10px;
 }
 
 .botao {
   border: none;
   border-radius: 5px;
+  width: 30px;
+  height: 30px;
 }
 
 .btn-green {
@@ -80,13 +82,15 @@ header {
   color: white;
 }
 
-#pt1,#pt2,#pt3 {
-  width: 30px;
-  height: 30px;
-  background-color: #f2f2f2;
-  border-radius: 5px;
+.placar_vitorias {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
-#trucar1, #trucar2{
-  height: 30px;
+.containerVi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
