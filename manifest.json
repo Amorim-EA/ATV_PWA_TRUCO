@@ -1,0 +1,22 @@
+{
+    "name": "Placar de Truco", 
+    "short_name": "Truco", 
+    "icons": [
+        {
+            "src": "images/icon.png",
+            "sizes": "256x256", 
+            "type":"iicon.png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "images/icon.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],     
+    "lang": "pt-BR",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "white", "theme_color": "white"
+}

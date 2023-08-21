@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  background-color: #f2f2f2;
+}
+
+html, .fullscreen {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header {
+  height: 11%;
+  text-align: center;
+  background-color: #00A86B;
+  padding: 20px;
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#titulo {
+  font-size: 4.5em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.containerMaior {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 90%;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 10%;
+  border-radius: 10px;
+}
+
+.containerInfoJogadores{
+  display: flex;
+  justify-content: space-between;
+}
+
+.botoes {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+#pt1,#pt2,#pt3 {
+  width: 30px;
+  height: 30px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
