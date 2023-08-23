@@ -70,6 +70,7 @@ aumentar6_nos.addEventListener('click', () => {
 aumentar9_nos.addEventListener('click', () => {
   pontos1 += 9;
   placarNos.textContent = pontos1;
+  verficarPontos();
 });
 
 aumentar12_nos.addEventListener('click', () => {
