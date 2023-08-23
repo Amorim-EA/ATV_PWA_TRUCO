@@ -32,6 +32,8 @@ header {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  justify-content: space-between;
+  flex-wrap: wrap;
   width: 85%;
   margin: auto;
   background-color: black;
@@ -39,12 +41,6 @@ header {
   padding: 20px;
   margin-top: 10%;
   border-radius: 10px;
-}
-
-.containerInfoJogadores{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .containerJogadores {
