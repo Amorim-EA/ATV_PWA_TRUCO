@@ -30,6 +30,7 @@ header {
 
 .containerMaior {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   gap: 30px;
   width: 85%;
